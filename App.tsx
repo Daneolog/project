@@ -1,8 +1,9 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, ProgressBarAndroid } from "react-native";
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import { LoginScreen } from "./src/LoginScreen";
 import { MainScreen } from "./src/customer/MainScreen";
+import { Header } from "react-native-elements";
 
 // export default function App() {
 //   return (
